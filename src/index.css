@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0ebe3;
+  border-right: 5px solid #2c3639;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 0.3s ease 0s;
+}
+.left h1 {
+  color: #8879b0;
+  font-size: 80px;
+  font-weight: bold;
+}
